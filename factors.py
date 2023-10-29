@@ -3,7 +3,7 @@ from sys import argv
 
 
 def sdivof(n):
-    #n = abs(n)
+    n = abs(n)
     for i in range(2, n + 1):
         if n % i == 0:
             return i
